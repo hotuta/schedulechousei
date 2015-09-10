@@ -6,9 +6,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/tv_title"
+        android:text="@string/tv_create"
         android:textSize="24.0sp"
-        android:id="@+id/" />
+         />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
         <TextView
             android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:text="@string/tv_name" />
+            android:text="@string/tv_eventname" />
         <EditText
             android:id="@+id/et_name"
             android:layout_width="200dp"
@@ -33,7 +33,7 @@
         <TextView
             android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:text="@string/tv_birthday" />
+            android:text="@string/tv_schedule" />
         <Spinner
             android:id="@+id/sp_month"
             android:layout_width="85dp"
@@ -62,9 +62,9 @@
         <TextView
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="@string/tv_address" />
+            android:text="@string/tv_explain" />
         <EditText
-            android:id="@+id/et_address"
+            android:id="@+id/et_content"
             android:layout_width="250dp"
 
             android:layout_height="wrap_content"
@@ -78,15 +78,30 @@
         <TextView
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="@string/tv_address" />
+            android:text="@string/tv_password" />
         <EditText
-            android:id="@+id/et_address"
+            android:id="@+id/et_password"
             android:layout_width="250dp"
 
             android:layout_height="wrap_content"
             android:inputType="text" />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_email" />
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="250dp"
+
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </LinearLayout>
 
 
 
