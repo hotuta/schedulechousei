@@ -8,8 +8,8 @@
     <string name="tv_create">イベント新規作成</string>
     <string name="tv_eventname">イベント名</string>
     <string name="tv_explain">イベント説明文</string>
-    <string name="tv_startschedule">候補日程</string>
-    <string name="tv_endschedule">候補日程</string>
+    <string name="tv_startschedule">候補日程(始め)</string>
+    <string name="tv_endschedule">候補日程(終わり)</string>
     <string name="tv_month">月</string>
     <string name="tv_day">日</string>
     <string name="tv_password">パスワード</string>

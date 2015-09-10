@@ -31,9 +31,9 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:layout_width="70dp"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:text="@string/tv_schedule" />
+            android:text="@string/tv_startschedule" />
         <Spinner
             android:id="@+id/sp_month"
             android:layout_width="100dp"
@@ -45,6 +45,34 @@
             android:text="@string/tv_month" />
         <Spinner
             android:id="@+id/sp_day"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/day" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_day" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_endschedule" />
+        <Spinner
+            android:id="@+id/sp_month2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/month" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_month" />
+        <Spinner
+            android:id="@+id/sp_day2"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:entries="@array/day" />
